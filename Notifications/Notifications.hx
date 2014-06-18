@@ -38,5 +38,4 @@ class Notifications
 	    init();
 	    notifications_createnotification(tickerText, contentTitle, contentText, iconName);
 	}
-	#end
 }

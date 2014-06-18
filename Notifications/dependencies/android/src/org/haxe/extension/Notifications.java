@@ -47,7 +47,7 @@ public class Notifications extends Extension
 
 		//int icon = android.R.drawable.ic_dialog_info;
 		int iconID = Extension.mainContext.getResources().getIdentifier(iconName, "drawable", "android");
-		if(iconID != 0)
+		if(iconID == 0)
 				iconID = android.R.drawable.ic_dialog_info;
 		
 		long when = System.currentTimeMillis();
